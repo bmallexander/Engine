@@ -14,17 +14,17 @@
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center"
                     Margin="0,30,0,0">
             <TextBlock Text="Name" Width="50"/>
-            <TextBlock Width="550"/>
+            <TextBox Width="550"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center"
                     Margin="0,5,0,0">
             <TextBlock Text="Path" Width="50"/>
-            <TextBlock Width="500"/>
+            <TextBox Width="500"/>
             <Button Content="Browse" Width="45" Margin="5,0,0,0"/>
         </StackPanel>
         <!-- Fixed syntax error -->
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center"
-                    Margin="0,5,0,0">
+                    Margin="0,30,0,0">
             <Button Content="Create" Width="96" IsDefault="True"/>
             <Button Content="Exit" Width="96" Margin="30,0,0,0" IsCancel="True"/>
         </StackPanel>
